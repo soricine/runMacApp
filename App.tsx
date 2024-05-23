@@ -5,6 +5,9 @@
  * @format
  */
 
+import { NativeModules } from "react-native"
+const { CustomMethods } = NativeModules
+
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
